@@ -41,5 +41,5 @@ while principal > 0:
     months +=1
     print(months, total_paid, principal)
 
-print('Total paid', round(total_paid,2))
-print('In {} months'.format(months))
+print(f'Total paid {total_paid:.2f}' )
+print(f'In {months} months')
